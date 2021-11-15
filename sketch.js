@@ -7,14 +7,14 @@ const Body = Matter.Body;
 var engine, world;
 
 function setup() {
-	createCanvas(800, 700);
+  createCanvas(800, 700);
 
 
-	engine = Engine.create();
-	world = engine.world;
+  engine = Engine.create();
+  world = engine.world;
 
 	//Create the Bodies Here.
-	paper = new Paper(100, 600, 10);
+  paper = new Paper(100, 600, 10);
 
   ground = new Ground(400, 680, 800, 20);
   
