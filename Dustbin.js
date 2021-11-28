@@ -2,9 +2,9 @@ class Dustbin {
     constructor(x, y, width, height) {
       var options = {
           isStatic: true,
-          'restitution':0,
-          'friction':1,
-          'density':0.1
+          'restitution':0.3,
+          'friction':0.5,
+          'density':1.2
       }
         this.leftbody=Bodies.rectangle(x-100+10+40, y-60-10-50,20,100, options)
         this.rightbody=Bodies.rectangle(x+100-40, y-60-10-50,20,100, options)
